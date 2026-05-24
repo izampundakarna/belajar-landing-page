@@ -1,0 +1,95 @@
+body {
+    background-color: bisque;
+}
+
+.judul {
+    text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #333;
+  padding: 15px 30px;
+  color: #fff;
+}
+
+.navbar .nav-links {
+  display: flex; 
+  gap: 20px; 
+  list-style: none;
+}
+
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none; 
+}
+
+section {
+    padding: 100px;
+}
+
+.persuasif {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 60px;  
+    color: brown;
+}
+
+p {
+    font-size: 30px;
+    color: brown;
+}
+
+.intro {
+    margin: 15px;
+    width: 50%;
+    height: auto;
+}
+
+.barier {
+    background-color: black;
+    height: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 10px;
+}
+
+.box {
+   background-color: brown; 
+   padding: 20px;
+}
+
+.menu {
+    width: 300px;
+}
+
+.menu1 {
+    width: 300px;
+    height: 300px;
+}
+
+.menu2 {
+    width: 300px;
+    height: 300px;
+}
+
+.menu3 {
+    width: 300px;
+    height: 300px;
+}
